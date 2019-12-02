@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0"/>
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\LoremFooBar.SimpleGwt.NUnit\LoremFooBar.SimpleGwt.NUnit.csproj"/>
+  </ItemGroup>
+
+</Project>
