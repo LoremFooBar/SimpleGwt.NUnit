@@ -5,4 +5,10 @@
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <ImplicitUsings>true</ImplicitUsings>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Nerdbank.GitVersioning" Condition="!Exists('packages.config')">
+      <PrivateAssets>all</PrivateAssets>
+      <Version>3.5.108</Version>
+    </PackageReference>
+  </ItemGroup>
 </Project>

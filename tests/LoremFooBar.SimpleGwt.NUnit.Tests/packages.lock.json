@@ -12,6 +12,12 @@
           "Microsoft.TestPlatform.TestHost": "17.2.0"
         }
       },
+      "Nerdbank.GitVersioning": {
+        "type": "Direct",
+        "requested": "[3.5.108, )",
+        "resolved": "3.5.108",
+        "contentHash": "+1Zn/jrrbBS1MVK20W8d8g4nEREPuZ6IHDTmtqlJiNeGXN45Iou0IPe5hykbLAVyWfnoN3bPCDBIVjeAfoMsWQ=="
+      },
       "NUnit3TestAdapter": {
         "type": "Direct",
         "requested": "[4.2.1, )",
