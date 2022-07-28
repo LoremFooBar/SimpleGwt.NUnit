@@ -15,6 +15,7 @@ ProjectSection(SolutionItems) = preProject
 	.gitignore = .gitignore
 	LICENSE = LICENSE
 	.github\workflows\ci.yml = .github\workflows\ci.yml
+	version.json = version.json
 EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA72F9B4-53AC-4902-B270-78CE2D732D74}"
