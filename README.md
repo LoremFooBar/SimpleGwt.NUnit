@@ -40,4 +40,4 @@ public class When_Adding_Two_Numbers : SpecificationBase
 
 If you follow these recommendations you can get a nice readable description of your app behavior in test explorer:
 
-![test explorer example](assets/readme/test-explorer.jpg)
+![test explorer example](https://raw.githubusercontent.com/LoremFooBar/SimpleGwt.NUnit/6e0b713bfec81b2fc99ce46d914bb4a7e5f6c2d2/assets/readme/test-explorer.jpg)
