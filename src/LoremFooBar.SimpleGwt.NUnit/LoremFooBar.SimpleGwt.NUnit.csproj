@@ -4,6 +4,8 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>10</LangVersion>
     <IsPackable>true</IsPackable>
+    <EnablePackageValidation>true</EnablePackageValidation>
+    <PackageValidationBaselineVersion>1.0.0</PackageValidationBaselineVersion>
     
     <Authors>LoremFooBar</Authors>
     <Description>A very simple Given-When-Then testing library for NUnit</Description>
