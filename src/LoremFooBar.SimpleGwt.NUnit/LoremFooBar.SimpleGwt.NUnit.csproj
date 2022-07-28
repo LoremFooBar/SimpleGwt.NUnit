@@ -3,14 +3,26 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>10</LangVersion>
-
+    <IsPackable>true</IsPackable>
+    
     <Authors>LoremFooBar</Authors>
     <Description>A very simple Given-When-Then testing library for NUnit</Description>
-    <Version>1.0.0</Version>
+    <PackageTags>testing, test, tests, given, when, then, given-when-then, gwt, bdd</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    
+    <PackageProjectUrl>https://github.com/LoremFooBar/simpleGwt.NUnit</PackageProjectUrl>
+    <PackageIcon>assets/icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="NUnit" Version="3.6.0"/>
+    <None Include="../../assets/" Pack="true" PackagePath="assets" />
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
   </ItemGroup>
-
+  
+  <ItemGroup>
+    <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1" PrivateAssets="all" />
+    <PackageReference Include="NUnit" Version="3.6.0" />
+  </ItemGroup>
+  
 </Project>

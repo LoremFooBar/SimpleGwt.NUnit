@@ -38,6 +38,6 @@ public class When_Adding_Two_Numbers : SpecificationBase
 1. Use underscore as separator for class and test names, to make it easier to read.
 2. You can add multiple "Then" cases to test multiple aspects of the same behavior ("When").
 
-If you follow these recommendations you can get a nice description of your app behavior in test explorer:
+If you follow these recommendations you can get a nice readable description of your app behavior in test explorer:
 
-![test explorer example](assets/test-explorer.jpg)
+![test explorer example](assets/readme/test-explorer.jpg)
