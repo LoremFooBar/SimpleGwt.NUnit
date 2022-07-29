@@ -5,7 +5,6 @@
 
 namespace LoremFooBar.SimpleGwt.NUnit.Tests.SpecificationBaseTests;
 
-[TestFixture]
 public class When_Overriding_Both_When_And_WhenAsync : ExceptionHandlingSpecificationBase
 {
     protected override void When()

@@ -5,7 +5,6 @@
 
 namespace LoremFooBar.SimpleGwt.NUnit.Tests.SpecificationBaseTests;
 
-[TestFixture]
 public class When_Overriding_Only_WhenAsync : SpecificationBase
 {
     protected override Task WhenAsync() => base.WhenAsync();

@@ -5,7 +5,6 @@
 
 namespace LoremFooBar.SimpleGwt.NUnit.Tests.SpecificationBaseTests;
 
-[TestFixture]
 public class When_Overriding_Both_Given_And_GivenAsync : ExceptionHandlingSpecificationBase
 {
     protected override void Given()

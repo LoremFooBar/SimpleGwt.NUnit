@@ -5,7 +5,6 @@
 
 namespace LoremFooBar.SimpleGwt.NUnit.Tests.SpecificationBaseTests;
 
-[TestFixture]
 public class When_Overriding_Both_CleanUp_And_CleanUpAsync : ExceptionHandlingSpecificationBase
 {
     protected override void CleanUp()

@@ -2,7 +2,6 @@
 
 namespace LoremFooBar.SimpleGwt.NUnit.Tests.SpecificationBaseTests;
 
-[TestFixture]
 public class When_Overriding_Only_When : SpecificationBase
 {
     // ReSharper disable once RedundantOverriddenMember

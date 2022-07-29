@@ -5,7 +5,6 @@
 
 namespace LoremFooBar.SimpleGwt.NUnit.Tests.SpecificationBaseTests;
 
-[TestFixture]
 public class When_Overriding_Both_BeforeAllTests_And_BeforeAllTestsAsync : ExceptionHandlingSpecificationBase
 {
     protected override void BeforeAllTests()
