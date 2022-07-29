@@ -9,5 +9,12 @@
     "buildNumber": {
       "enabled": true
     }
-  }
+  },
+  "pathFilters": [
+    ":!.github/",
+    ":!.gitignore",
+    ":!.editorconfig",
+    ":!.idea/",
+    ":!.config/dotnet-tools.json"
+  ]
 }
