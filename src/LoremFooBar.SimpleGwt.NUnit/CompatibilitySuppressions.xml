@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Suppressions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Suppression>
+    <DiagnosticId>CP0001</DiagnosticId>
+    <Target>T:LoremFooBar.SimpleGwt.NUnit.ThenAttribute</Target>
+    <Left>lib/netstandard2.0/LoremFooBar.SimpleGwt.NUnit.dll</Left>
+    <Right>lib/netstandard2.0/LoremFooBar.SimpleGwt.NUnit.dll</Right>
+    <IsBaselineSuppression>true</IsBaselineSuppression>
+  </Suppression>
+</Suppressions>
