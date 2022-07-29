@@ -1,10 +1,9 @@
-﻿using NUnit.Framework;
+﻿namespace LoremFooBar.SimpleGwt.NUnit.Tests.SpecificationBaseTests;
 
-namespace LoremFooBar.SimpleGwt.NUnit.Tests.SpecificationBaseTests;
-
-[TestFixture]
 public abstract class ExceptionHandlingSpecificationBase : SpecificationBase
 {
+    protected Exception Exception;
+
     public override async Task TestFixtureSetUp()
     {
         try {
@@ -14,6 +13,4 @@ public abstract class ExceptionHandlingSpecificationBase : SpecificationBase
             Exception = ex;
         }
     }
-
-    protected Exception Exception;
 }

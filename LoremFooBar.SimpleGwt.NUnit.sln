@@ -22,6 +22,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA72F9B4-53A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{AED1F343-00F9-4847-88BC-D9D026CDE657}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoremFooBar.SimpleGwt.NUnit.SourceGenerator", "src\LoremFooBar.SimpleGwt.NUnit.SourceGenerator\LoremFooBar.SimpleGwt.NUnit.SourceGenerator.csproj", "{66A94D30-A266-4EA9-82C5-63B46A8AC090}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,6 +38,10 @@ Global
 		{C2CF0DC3-00D1-4700-9E62-5267BEB35ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2CF0DC3-00D1-4700-9E62-5267BEB35ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2CF0DC3-00D1-4700-9E62-5267BEB35ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A94D30-A266-4EA9-82C5-63B46A8AC090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A94D30-A266-4EA9-82C5-63B46A8AC090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A94D30-A266-4EA9-82C5-63B46A8AC090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A94D30-A266-4EA9-82C5-63B46A8AC090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{BE93B0D0-F442-4B38-B8F1-7FE0B9C938ED} = {BA72F9B4-53AC-4902-B270-78CE2D732D74}
 		{C2CF0DC3-00D1-4700-9E62-5267BEB35ACD} = {AED1F343-00F9-4847-88BC-D9D026CDE657}
+		{66A94D30-A266-4EA9-82C5-63B46A8AC090} = {BA72F9B4-53AC-4902-B270-78CE2D732D74}
 	EndGlobalSection
 EndGlobal

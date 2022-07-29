@@ -6,25 +6,30 @@
     <IsPackable>true</IsPackable>
     <EnablePackageValidation>true</EnablePackageValidation>
     <PackageValidationBaselineVersion>1.0.0</PackageValidationBaselineVersion>
-    
+
     <Authors>LoremFooBar</Authors>
     <Description>A very simple Given-When-Then testing library for NUnit</Description>
     <PackageTags>testing, test, tests, given, when, then, given-when-then, gwt, bdd</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    
+
     <PackageProjectUrl>https://github.com/LoremFooBar/simpleGwt.NUnit</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="../../assets/icon.png" Pack="true" PackagePath="/" />
-    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  <ItemGroup Label="Package assets">
+    <None Include="../../assets/icon.png" Pack="true" PackagePath="/"/>
+    <None Include="../../README.md" Pack="true" PackagePath="/"/>
   </ItemGroup>
-  
+
   <ItemGroup>
-    <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1" PrivateAssets="all" />
-    <PackageReference Include="NUnit" Version="3.6.0" />
+    <!-- workaround for packaging source generator in same package https://stackoverflow.com/a/68584140/1351416 -->
+    <None Include="../$(AssemblyName).SourceGenerator/bin/$(Configuration)/netstandard2.0/$(AssemblyName).SourceGenerator.dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false"/>
   </ItemGroup>
-  
+
+  <ItemGroup>
+    <PackageReference Include="DotNet.ReproducibleBuilds" Version="1.1.1" PrivateAssets="all"/>
+    <PackageReference Include="NUnit" Version="3.6.0"/>
+  </ItemGroup>
+
 </Project>
